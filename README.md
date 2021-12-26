@@ -1,6 +1,20 @@
 # MechaCar_Statistical_Analysis
+Statisitical analysis of automobile performance with R
+
+## Overview
+AutosRUs' new MechaCar is "suffering from production troubles" and the company is hoping that an analytical review may help provide some insight. The goal of this project is to:
+
+* discover which variables predict the MPG for vehicle prototypes;
+* collect summary stats on the PSI of suspension coils;
+* determine if manufacturing lots are statistically different from the mean population;
+* design a study to compare the MechaCar performance against vehicles from other manufacturers.
+### Results
 ## Linear Regression to Predict MPG
+
+![deliverable1](https://user-images.githubusercontent.com/90277142/147416010-a6366935-b53e-42fd-8b0d-d47c256509fd.png)
+
 * Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+
 * Is the slope of the linear model considered to be zero? Why or why not?
 * Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
