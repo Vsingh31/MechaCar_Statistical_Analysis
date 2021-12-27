@@ -26,20 +26,28 @@ AutosRUs' new MechaCar is "suffering from production troubles" and the company i
 
 * While the overall variance, as shown in the Total Summary data above, is under 100 psi and meets specifications, there is a problem with one of the individual lots. As shown in the Lot Summary stats, the variance for Lot 3 is well over the acceptable threshold, at 170.28.
 ### T-Tests on Suspension Coils
-
+* A review of the results of the T-test for the suspension coils across all manufacturing lots shows that they are not statistically different from the population mean, and the   p-value is not low enough (0.0603) for us to reject the null hypothesis.
 ![t-test](https://user-images.githubusercontent.com/90277142/147429447-68fbf0f5-04cc-4aa2-8510-86d608cfd7e7.png)
+* A review of the results of the T-test for the suspension coils for Lot 1 shows that they are not statistically different from the population mean, and the p-value is not low     enough (1) for us to reject the null hypothesis.
 ![lot1](https://user-images.githubusercontent.com/90277142/147429490-dad7299c-bb23-40ae-81e8-d26b0c118cd4.png)
+* A review of the results of the T-test for the suspension coils for Lot 2 shows that they are not statistically different from the population mean, and the p-value is not low     enough (0.6072) for us to reject the null hypothesis.
 ![lot2](https://user-images.githubusercontent.com/90277142/147429512-1c0c5e14-09bd-4ae8-a94e-ddaaf0c6d689.png)
+* A review of the results of the T-test for the suspension coils for Lot 3 shows that they are slightly statistically different from the population mean, and the p-value is just   low enough (0.0417) for us to reject the null hypothesis. This lot may be need to be discarded, or at least more closely evaluated.
+
 ![lot3](https://user-images.githubusercontent.com/90277142/147429514-26d90e55-940e-48c3-80f3-9b83c344578d.png)
 
 
 ## Study Design: MechaCar vs Competition
+There are many factors that consumers take into consideration when evaluating a car to purchase. However, in a world where ridesharing is becoming more ubiquitous and it's easy and cheap to get around in other people's vehicles, customers looking to purchase a car are looking for more than just a conveyance. They will be looking to buy a car that is an economical means to regularly transport themselves and their items on a reliable, regular basis.
 
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+* Metric to test
+  To narrow down our test, we should evaluate MechaCar's carrying capacity, in cubic inches, in comparison to various competitors' vehicles.
 
-In your description, address the following questions:
+* Null and Alternate Hypothesis
+  H0: MechaCar prototypes' average carrying capacity is similar to competitor's vehicles in the same vehicle class Ha: MechaCar prototypes' average carrying capacity is           statistically above or below that of competitor vehicles.
 
-* What metric or metrics are you going to test?
-* What is the null hypothesis or alternative hypothesis?
-* What statistical test would you use to test the hypothesis? And why?
-* What data is needed to run the statistical test?
+* Statistical Test Used
+  The best statistical test for this would be two-sample t-tests.
+
+* What data is needed
+  We would need to gather cubic space data from the carrying compartments of all MechaCar prototypes, as well as from all major competitor vehicles.
