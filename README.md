@@ -27,6 +27,12 @@ AutosRUs' new MechaCar is "suffering from production troubles" and the company i
 * While the overall variance, as shown in the Total Summary data above, is under 100 psi and meets specifications, there is a problem with one of the individual lots. As shown in the Lot Summary stats, the variance for Lot 3 is well over the acceptable threshold, at 170.28.
 ### T-Tests on Suspension Coils
 
+![t-test](https://user-images.githubusercontent.com/90277142/147429447-68fbf0f5-04cc-4aa2-8510-86d608cfd7e7.png)
+![lot1](https://user-images.githubusercontent.com/90277142/147429490-dad7299c-bb23-40ae-81e8-d26b0c118cd4.png)
+![lot2](https://user-images.githubusercontent.com/90277142/147429512-1c0c5e14-09bd-4ae8-a94e-ddaaf0c6d689.png)
+![lot3](https://user-images.githubusercontent.com/90277142/147429514-26d90e55-940e-48c3-80f3-9b83c344578d.png)
+
+
 ## Study Design: MechaCar vs Competition
 
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
